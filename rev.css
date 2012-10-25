@@ -1,0 +1,32 @@
+div{
+
+}
+#input_div{
+	display: inline-block;
+
+
+
+
+
+	margin-left: 200px;
+}
+#show_div{
+	display: inline-block;
+	height: 300px;
+	width: 400px;
+	border:1px solid;
+}
+
+#show_div div.new_story{
+		border:1px solid;
+}
+
+
+
+#tags_div{
+	border:1px solid;
+}
+#tags_div div {
+
+	border: 1px solid;
+}

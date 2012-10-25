@@ -1,0 +1,37 @@
+<html>
+	<head>
+
+		<script src="jquery.js"></script>
+		<link href="rev.css" rel="stylesheet" type="text/css" media="all" />
+		<script src = "review.js"></script>
+
+	</head>
+	<body>
+		<div id = "show_div">
+			<h3>
+				Stories:
+				
+			</h3>
+		</div>
+		<div id = "input_div">
+			title: <input type = "text" id = "title" class = "show"/><br />
+			description: <input type = "textarea" rows = 5 column = 25 class = "show"/> <br />
+			user: <select class = "show_tags1"/>
+				<option>ab</option>
+				<option>cd</option>
+				<option>ef</option>
+				<option>gh</option>
+				<option>ij</option>
+			</select> <br />
+			tags: <input type = "text" class = "show_tags"> <br />
+			
+			<input type = "button" onclick = 'add_new_story()' id = "add_story" value = "add story"  > 
+
+
+		</div>
+
+		<div id = "tags_div">
+		</div>
+
+	</body>
+</html>
